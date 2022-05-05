@@ -3,7 +3,6 @@ import Input from "../Input";
 import { useState } from "react";
 import API_KEY from "../../config";
 
-
 function App() {
   const [cityName, setCityName] = useState("");
   const [cityData, setCityData] = useState([]);
@@ -14,8 +13,7 @@ function App() {
       {
         headers: {
           "X-RapidAPI-Host": "community-open-weather-map.p.rapidapi.com",
-          "X-RapidAPI-Key":
-            API_KEY,
+          "X-RapidAPI-Key": API_KEY,
         },
       }
     );
@@ -28,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Input onSubmit={fetchData} />
-      {cityName !== "" && <div>search results for: {cityName}</div>}
+      {cityName !== "" && <div>Search results for: {cityName}</div>}
       <div>
         {cityData.map((data) => {
           return <p key={data.sunrise}>{data.deg}</p>;
