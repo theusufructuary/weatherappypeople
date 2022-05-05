@@ -29,7 +29,7 @@ function App() {
       {cityName !== "" && <div>search results for: {cityName}</div>}
       <div>
         {cityData.map((data) => {
-          return <p>{data.deg}</p>;
+          return <p key={data.sunrise}>{data.deg}</p>;
         })}
       </div>
     </div>
