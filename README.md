@@ -8,10 +8,10 @@ Developed as part of the hackathon for the company 383 Ltd
 ![Screenshot](https://github.com/theusufructuary/weatherappypeople/blob/readme_branch/pictures/team10.png)
 
 
- [Chris J](https://github.com/theusufructuary)
- [Robert Jones](https://github.com/RobertHJones)
- [Toni Saraiva](https://github.com/Tonisaraiva)
- [Julia Stepanova](https://github.com/julija777)
+- [Chris J](https://github.com/theusufructuary)
+- [Robert Jones](https://github.com/RobertHJones)
+- [Toni Saraiva](https://github.com/Tonisaraiva)
+- [Julia Stepanova](https://github.com/julija777)
 
 
 
