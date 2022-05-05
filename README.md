@@ -5,7 +5,7 @@ Developed as part of the hackathon for the company 383 Ltd
 
 ## Our Team
 
-![Screenshot](team10.png)
+![Screenshot](https://github.com/theusufructuary/weatherappypeople/blob/readme_branch/pictures/team10.png)
 
 
  [Chris J](https://github.com/theusufructuary)
@@ -16,15 +16,15 @@ Developed as part of the hackathon for the company 383 Ltd
 
 
 
-### Target User
+## Target User
 
 We imagined that this app would be used by Tourist to display the destination they are visiting or planning to visit in the next 8 days.
 
 
-### To start using the app
+## To start using the app
 
 
-## To start from the gitHub
+### To start from the gitHub
 
 - Clone the repository into your VSCode 
 
@@ -38,11 +38,11 @@ We imagined that this app would be used by Tourist to display the destination th
 
 
 
-## To start from the web
+### To start from the web
 
 Just visit the live online version available by clicking on [WeatherAppyPeople](https://weather-app-team10.herokuapp.com/)
 
-#### Development 
+## Development 
 - React
 - OpenWeatherMap Api
 - Npm
