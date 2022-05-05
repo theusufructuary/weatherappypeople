@@ -1,34 +1,59 @@
-# Weather App Plan
+# WeatherAppyPeople 
 
-### User Persona(s)
-Tourist / Traveller
+An App to find weather forecast for various cities around the world
+Developed as part of the hackathon for the company 383 Ltd
 
-### API
-https://rapidapi.com/community/api/open-weather-map/
+## Our Team
 
-
-### Component Tree
-- App
-    - Logo & Search bar (user input)
-    - Display Section
-        - Display cards x 8
-
-### State
-- App
-    State:
-        - City name
-        - Date
-        - Temp max
-        - Temp min
-        - Weather array
-
-    Props:
+![Screenshot](https://github.com/theusufructuary/weatherappypeople/blob/readme_branch/pictures/team10.png)
 
 
-- Logo & Search bar (user input)
+Our Github pages:
+
+- [Chris J](https://github.com/theusufructuary)
+- [Robert Jones](https://github.com/RobertHJones)
+- [Toni Saraiva](https://github.com/Tonisaraiva)
+- [Julia Stepanova](https://github.com/julija777)
 
 
-- Display Section
 
 
-- Display cards x 8
+## Target User
+
+We imagined that this app would be used by Tourist to display the destination they are visiting or planning to visit in the next 8 days.
+
+
+## To start using the app
+
+
+### To start from the gitHub
+
+- Clone the repository into your VSCode 
+
+- Type 'npm i' to install dependencies in your VSCode terminal
+
+- Then type 'npm start' to start the app on your local environment
+
+- Go to 'localhost:3000' in your browser to display the search page
+
+- Type the city you want the weather forecast for in the search box and click "Search"
+
+
+
+### To start from the web
+
+Just visit the live online version available by clicking on [WeatherAppyPeople](https://weather-app-team10.herokuapp.com/)
+
+## Development 
+- React
+- OpenWeatherMap Api
+- Npm
+- Heroku
+
+
+## Languages used in development
+- JavaScript
+- HTML
+- CSS
+- Markup
+---
