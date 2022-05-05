@@ -12,4 +12,3 @@ https://rapidapi.com/community/api/open-weather-map/
     - Logo & Search bar (user input)
     - Display Section
         - Display cards x 8
-        - Detailed View
