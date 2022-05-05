@@ -45,6 +45,7 @@ Just visit the live online version available by clicking on [WeatherAppyPeople](
 #### Development 
 - React
 - OpenWeatherMap Api
+- Npm
 - Heroku
 
 
