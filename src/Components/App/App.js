@@ -1,11 +1,14 @@
 import "./App.css";
 import Input from "../Input";
+import Card from "../Card";
 import { useState } from "react";
 import API_KEY from "../../config";
 
 function App() {
   const [cityName, setCityName] = useState("");
   const [cityData, setCityData] = useState([]);
+
+ 
 
   async function fetchData(city) {
     const response = await fetch(
@@ -29,7 +32,7 @@ function App() {
       {cityName !== "" && <div>Search results for: {cityName}</div>}
       <div>
         {cityData.map((data) => {
-          return <p key={data.sunrise}>{data.deg}</p>;
+          return <Card key={data.sunrise} date={data.dt} tempMax={data.temp.max} tempMin={data.temp.min} desc={data.weather[0].description}/>;
         })}
       </div>
     </div>
