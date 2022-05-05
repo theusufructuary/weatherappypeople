@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <Input onSubmit={fetchData} />
-      <div>search results for: {cityName}</div>
+      {cityName !== "" && <div>search results for: {cityName}</div>}
       <div>
         {cityData.map((data) => {
           return <p>{data.deg}</p>;
