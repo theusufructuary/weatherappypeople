@@ -1,5 +1,6 @@
 import "./App.css";
 import Input from "../Input";
+import Card from "../Card";
 import { useState } from "react";
 import API_KEY from "../../config";
 
@@ -21,15 +22,25 @@ function App() {
     setCityName(data.city.name);
     setCityData(data.list);
     console.log(data);
+    console.log("date", data.list[0].dt);
   }
 
   return (
     <div className="App">
+      <h1>Your Weather</h1>
       <Input onSubmit={fetchData} />
       {cityName !== "" && <div>Search results for: {cityName}</div>}
-      <div>
+      <div className="weatherData">
         {cityData.map((data) => {
-          return <p key={data.sunrise}>{data.deg}</p>;
+          return (
+            <Card
+              key={data.sunrise}
+              date={data.dt}
+              tempMax={data.temp.max}
+              tempMin={data.temp.min}
+              desc={data.weather[0].description}
+            />
+          );
         })}
       </div>
     </div>
