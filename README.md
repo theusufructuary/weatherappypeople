@@ -5,7 +5,7 @@ Developed as part of the hackathon for the company 383 Ltd
 
 ## Our Team
 
-![Screenshot](https://github.com/theusufructuary/weatherappypeople/blob/readme_branch/pictures/team10.png)
+![Screenshot](https://github.com/theusufructuary/weatherappypeople/blob/pictures/team10.png)
 
 
 Our Github pages:
