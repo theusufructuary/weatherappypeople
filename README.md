@@ -20,7 +20,7 @@ Our Github pages:
 
 ## Target User
 
-We imagined that this app would be used by Tourist to display the destination they are visiting or planning to visit in the next 8 days.
+We imagined that this app would be used by Tourists to display the destination they are visiting or planning to visit in the next 8 days.
 
 
 ## To start using the app
